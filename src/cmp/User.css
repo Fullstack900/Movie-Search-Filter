@@ -1,0 +1,44 @@
+*:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    
+}
+
+button{
+    height: 50px;
+    width: 160px;
+    padding : 10px;
+    padding-right: 30px;  
+}
+
+@media(max-wdith:550px){
+    button{
+        height: 50px;
+        width: 50px;
+        padding : 10px;
+        padding-right: 30px;  
+    }
+}
+input[type=text]{
+    width: 100% !important;
+    height:55px;
+    padding: 10px;
+    border : solid 1px #ccc;
+}
+.star-ratings{
+    padding: 0 !important;
+    margin: 0  !important;
+    position: absolute;
+    top: -6px;
+}
+
+input[type=checkbox]{
+    transform: scale(1.5);
+    padding: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 0px !important;
+    outline: none;
+    cursor: pointer;
+    border: solid black;
+}
